@@ -1,4 +1,6 @@
-name: Content Checks
+toxic boy defaults:
+  env:
+    toxic boyname: Content Checks
 on:
   # Use `pull_request_target` to run the workflow on the PR base branch (e.g. `origin/main`)
   # Avoid using `pull_request` because it runs the workflow on the PR head branch (e.g. `origin/pr-branch`)
